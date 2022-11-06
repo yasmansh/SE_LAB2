@@ -6,4 +6,6 @@ nums = []
 for item in inp1:
     nums.append(int(item))
 
+mergeSort(nums)
 
+print(nums)
