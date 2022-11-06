@@ -1,4 +1,5 @@
-#TODO get input and call two funcs
+from bubbleSort import *
+from merge_sort import *
 
 inp1 = input().split()
 nums = []
