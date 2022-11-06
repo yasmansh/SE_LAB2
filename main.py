@@ -1,8 +1,7 @@
-#TODO get input and call two funcs
+from bubbleSort import bubbleSort
 
-inp1 = input().split()
-nums = []
-for item in inp1:
-    nums.append(int(item))
+my_arr = [10, 6, 9, 43, 3, 72, 7]
 
+result = bubbleSort(my_arr)
 
+print(result)
