@@ -1,11 +1,13 @@
-<<<<<<< HEAD
 from bubbleSort import *
 from mergeSort import *
 
-from bubbleSort import bubbleSort
+my_arr = [12, 14, 5, 7, 13, 72, 55, 11]
+print('Before Bubble Sort: ' + str(my_arr))
 
-my_arr = [10, 6, 9, 43, 3, 72, 7]
+result1 = bubbleSort(my_arr)
+print('After Bubble Sort: ' + str(result1))
 
-result = bubbleSort(my_arr)
-
-print(result)
+my_arr = [12, 14, 5, 7, 13, 72, 55, 11]
+print('Before Merge Sort: ' + str(my_arr))
+mergeSort(my_arr)
+print('After Merge Sort: ' + str(my_arr))
