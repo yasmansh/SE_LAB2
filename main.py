@@ -1,5 +1,5 @@
 from bubbleSort import *
-from merge_sort import *
+from mergeSort import *
 
 inp1 = input().split()
 nums = []
